@@ -7,6 +7,7 @@ import {
   LayoutDashboard, ChevronDown, Settings, GraduationCap
 } from 'lucide-react';
 
+
 export default function Navbar() {
   const { user, logout } = useAuth();
   const { cart } = useCart();
